@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "title": "Booki",
+      "image": "booki.jpg",
+      "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
+      "skills": ["HTML", "CSS" ],
+      "repo": "https://github.com/oanaciuca/booki",
+      "demo": "https://oanaciuca.github.io/booki/"
+    },
+    {
+      "id": 2,
+      "title": "Ohmyfood",
+      "image": "ohmyfood.jpg",
+      "description": "Amélioration de l'interface d'un site mobile avec des animations CSS",
+      "skills": ["HTML", "CSS", "@keyframes"],
+      "repo": "https://github.com/oanaciuca/ohmyfood",
+      "demo": "https://oanaciuca.github.io/ohmyfood/"
+    },
+    {
+      "id": 3,
+      "title": "Portfolio-architecte-sophie-bluel",
+      "image": "sophie.jpg",
+      "description": "Création d'une page web dynamique avec JavaScript",
+      "skills": ["HTML", "CSS", "JS"],
+      "repo": "https://github.com/oanaciuca/Portfolio-architecte-sophie-bluel",
+      "demo": "https://portfolio-architecte-sophie-bluel-mxxdbrryr-oanaciucas-projects.vercel.app/"
+    },
+    {
+      "id": 4,
+      "title": "Kasa",
+      "image": "kasa.jpg",
+      "description": "Création d'une application web de location immobilière avec React",
+      "skills": ["React"],
+      "repo": "https://github.com/oanaciuca/kasa",
+      "demo": "https://vercel.com/oanaciucas-projects/kasa"
+    },
+    {
+      "id": 5,
+      "title": "Nina-Carducci",
+      "image": "nina.jpg",
+      "description": "Optimisation du référencement d'un site de photographe",
+      "skills": ["SEO & performance","Optimisation front-end","Accessibilité & SEO local"],
+      "repo": "https://https://github.com/oanaciuca/ninacarducci",
+      "demo": "https://oanaciuca.github.io/ninacarducci/"
+    },
+    {
+      "id": 6,
+      "title": "724events",
+      "image": "724.jpg",
+      "description": "Débuggage d'un site d'une agence d'événementiel",
+      "skills": ["Débogage front-end (site one-page)","Finalisation du cahier de recette","Gestion des issues & tests fonctionnels"],
+      "repo": "https://github.com/oanaciuca/Debuggez-une-application-React.JS",
+      "demo": "https://debuggez-une-application-react-jq3gn2a36-oanaciucas-projects.vercel.app/"
+    },
+    {
+      "id": 7,
+      "title": "Argentbank",
+      "image": "argentbank.jpg",
+      "description": "Implémentation du front-end d'une application bancaire avec React",
+      "skills": ["React (CRA → Vite)","Flow d’authentification responsive","Gestion d’état avec Redux","Intégration d’API & gestion d’erreurs","Green code & composants réutilisables"],
+      "repo": "https://github.com/oanaciuca/Deploiement-pr-ecoindex-argentbank",
+      "demo": "https://deploiement-pr-ecoindex-argentbank-znm7-ec7hedvu1.vercel.app/"
+    }
+  ]
