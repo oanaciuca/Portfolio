@@ -9,7 +9,9 @@ export default function ProjectCard({ project }) {
   return (
     <>
       <div className="project-card" onClick={() => setIsOpen(true)}>
-        <img src={imgSrc} alt={title} />
+        <div className="image-wrapper">
+          <img src={imgSrc} alt={title} />
+        </div>
         <h3>{title}</h3>
       </div>
 
