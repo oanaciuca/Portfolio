@@ -490,11 +490,11 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    padding: 1rem 0; /* un peu moins de hauteur */
+    padding: 1rem 0; 
   }
 
   .header-logo img {
-    height: 32px; /* réduire légèrement le logo */
+    height: 32px;
   }
 
   .header-menu {
@@ -503,7 +503,7 @@ body {
   }
 
   .header-menu-link {
-    font-size: 1rem; /* un poil plus gros pour cliquer */
+    font-size: 1rem;
   }
 
   /* Réduction des paddings généraux */
