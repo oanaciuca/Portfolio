@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <section className="banner">
       <div className="banner-container">
-        <div className="banner-text">
+        <header className="banner-text">
           <small className="banner-pretitle">Bonjour !</small>
           <h1 className="banner-title">
             Je suis Oana Ciuca,<br/>
@@ -14,7 +14,7 @@ export default function Banner() {
           <p className="banner-subtitle">
             Création d’interfaces modernes et responsives
           </p>
-        </div>
+        </header>
         <div className="banner-image">
           <img src={banner} alt="Illustration développement front-end" />
         </div>
