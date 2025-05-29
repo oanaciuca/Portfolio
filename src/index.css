@@ -512,12 +512,14 @@ body {
 
   .banner-container {
     flex-direction: column;
-    align-items: center;      
+    align-items: center;
+    gap: 1rem;      
   }
 
   .banner-text,
   .banner-image {
     width: 100%;
+    text-align: center;
   }
 
   .banner-image {
