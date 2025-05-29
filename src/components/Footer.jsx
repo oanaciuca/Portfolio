@@ -2,7 +2,6 @@ import React from 'react';
 import logo        from '../assets/logo.gif';
 import githubIcon  from '../assets/github.svg';
 import mailIcon    from '../assets/mail.svg';
-import whatsappIcon from '../assets/whatsapp.svg';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -28,14 +27,6 @@ export default function Footer() {
           <a href="#contact" aria-label="Aller à la section contact">
             <img src={mailIcon} alt="Contactez-moi" className="footer__icon" />
           </a>
-          <a
-            href="https://wa.me/33123456789"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Contactez-moi sur WhatsApp"
-          >
-    <img src={whatsappIcon} alt="WhatsApp" className="footer__icon" />
-  </a>
         </div>
       </div>  
     </footer>
