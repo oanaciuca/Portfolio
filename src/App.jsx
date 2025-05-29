@@ -1,4 +1,5 @@
 import React from 'react';
+import bannerUrl from './assets/banner.jpg';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import About from './components/About';
@@ -10,6 +11,13 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <>
+      <Helmet>
+        <link
+          rel="preload"
+          as="image"
+          href={bannerUrl}
+        />
+      </Helmet>
       <Header />
       <Banner />
       <About />
