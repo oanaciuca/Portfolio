@@ -3,11 +3,18 @@ import logo        from '../assets/logo.gif';
 import githubIcon  from '../assets/github.svg';
 import mailIcon    from '../assets/mail.svg';
 import whatsappIcon from '../assets/whatsapp.svg';
+import { FaArrowUp } from 'react-icons/fa';
+
 
 export default function Footer() {
   const year = new Date().getFullYear();
   const phoneNumber = '40724173715';
   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+
+  const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
     
   return (
     <footer className="footer">
@@ -43,7 +50,14 @@ export default function Footer() {
             />
           </a>
         </div>
-      </div>  
+      </div>
+      <button
+        className="scroll-to-top"
+        onClick={scrollToTop}
+        aria-label="Revenir en haut"
+      >
+        <FaArrowUp />
+      </button> 
     </footer>
   );
 }
