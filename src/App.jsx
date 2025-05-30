@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerUrl from './assets/banner.jpg';
+import { Helmet } from 'react-helmet';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import About from './components/About';
