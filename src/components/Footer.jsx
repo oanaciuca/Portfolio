@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__inner">
-        <img src={logo} alt="Logo" className="footer__logo" />
+        <img src={logo} alt="Logo" className="footer__logo" width="60" height="40" />
 
         <p className="footer__text">
           © {year} Oana Ciuca — Tous droits réservés.

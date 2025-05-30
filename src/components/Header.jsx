@@ -6,7 +6,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <a href="/" className="header-logo">
-          <img src={logo} alt="Logo OC" />
+          <img src={logo} alt="Logo OC" width="60" height="40"/>
         </a>
         <nav>
           <ul className="header-menu">

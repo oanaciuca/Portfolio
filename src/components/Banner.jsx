@@ -45,6 +45,8 @@ export default function Banner() {
           <img
             src="/assets/banner.webp"
             alt="Illustration développement front-end"
+            width="490"
+            height="442"
           />
         </motion.div>
       </div>

@@ -24,6 +24,7 @@ body {
   --color-accent: #227BEA;
 }
 
+
 .section__title {
   font-family: var(--font-heading);
   font-size: 2rem;             
