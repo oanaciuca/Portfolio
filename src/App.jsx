@@ -15,7 +15,7 @@ export default function App() {
         <link
           rel="preload"
           as="image"
-          href={bannerUrl}
+          href="/assets/banner.jpg"
         />
       </Helmet>
       <Header />
