@@ -43,7 +43,7 @@ export default function Banner() {
           transition={{ duration: 1, delay: 0.6 }}
         >
           <img
-            src="/assets/banner.jpg"
+            src="/assets/banner.webp"
             alt="Illustration développement front-end"
           />
         </motion.div>
