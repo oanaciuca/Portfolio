@@ -10,7 +10,7 @@ export default function ProjectCard({ project }) {
     <>
       <div className="project-card" onClick={() => setIsOpen(true)}>
         <div className="image-wrapper">
-          <img src={imgSrc} alt={title} />
+          <img src={imgSrc} alt={title} loading="lazy" />
         </div>
         <h3>{title}</h3>
       </div>
@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
               &times;
             </button>
             <h2>{title}</h2>
-            <img src={imgSrc} alt={title} />
+            <img src={imgSrc} alt={title} loading="lazy"/>
             <p>{description}</p>
             <ul>
               {skills.map((s, i) => (
