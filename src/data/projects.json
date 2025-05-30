@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Booki",
-      "image": "booki.jpg",
+      "image": "booki.webp",
       "description": "Création de la page d'accueil d'une agence de voyage avec HTML & CSS",
       "skills": ["HTML", "CSS" ],
       "repo": "https://github.com/oanaciuca/booki",
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Ohmyfood",
-      "image": "ohmyfood.jpg",
+      "image": "ohmyfood.webp",
       "description": "Amélioration de l'interface d'un site mobile avec des animations CSS",
       "skills": ["HTML", "CSS", "@keyframes"],
       "repo": "https://github.com/oanaciuca/ohmyfood",
@@ -20,7 +20,7 @@
     {
       "id": 3,
       "title": "Portfolio-architecte-sophie-bluel",
-      "image": "sophie.jpg",
+      "image": "sophie.webp",
       "description": "Création d'une page web dynamique avec JavaScript",
       "skills": ["HTML", "CSS", "JS"],
       "repo": "https://github.com/oanaciuca/Portfolio-architecte-sophie-bluel",
@@ -29,7 +29,7 @@
     {
       "id": 4,
       "title": "Kasa",
-      "image": "kasa.jpg",
+      "image": "kasa.webp",
       "description": "Création d'une application web de location immobilière avec React",
       "skills": ["React"],
       "repo": "https://github.com/oanaciuca/kasa",
@@ -38,7 +38,7 @@
     {
       "id": 5,
       "title": "Nina-Carducci",
-      "image": "nina.jpg",
+      "image": "nina.webp",
       "description": "Optimisation du référencement d'un site de photographe",
       "skills": ["SEO & performance","Optimisation front-end","Accessibilité & SEO local"],
       "repo": "https://https://github.com/oanaciuca/ninacarducci",
@@ -47,7 +47,7 @@
     {
       "id": 6,
       "title": "724events",
-      "image": "724.jpg",
+      "image": "724.webp",
       "description": "Débuggage d'un site d'une agence d'événementiel",
       "skills": ["Débogage front-end (site one-page)","Finalisation du cahier de recette","Gestion des issues & tests fonctionnels"],
       "repo": "https://github.com/oanaciuca/Debuggez-une-application-React.JS",
@@ -56,7 +56,7 @@
     {
       "id": 7,
       "title": "Argentbank",
-      "image": "argentbank.jpg",
+      "image": "argentbank.webp",
       "description": "Implémentation du front-end d'une application bancaire avec React",
       "skills": ["React (CRA → Vite)","Flow d’authentification responsive","Gestion d’état avec Redux","Intégration d’API & gestion d’erreurs","Green code & composants réutilisables"],
       "repo": "https://github.com/oanaciuca/Deploiement-pr-ecoindex-argentbank",
