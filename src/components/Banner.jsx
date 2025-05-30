@@ -1,5 +1,4 @@
 import React from 'react';
-import bannerUrl from '../assets/banner.jpg';
 
 export default function Banner() {
   return (
@@ -16,7 +15,7 @@ export default function Banner() {
           </p>
         </header>
         <div className="banner-image">
-          <img src={bannerUrl} alt="Illustration développement front-end" />
+          <img src="/assets/banner.jpg" alt="Illustration développement front-end" />
         </div>
       </div>
     </section>
