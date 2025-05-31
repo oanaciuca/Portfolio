@@ -33,7 +33,7 @@
       "description": "Création d'une application web de location immobilière avec React",
       "skills": ["React"],
       "repo": "https://github.com/oanaciuca/kasa",
-      "demo": "https://vercel.com/oanaciucas-projects/kasa"
+      "demo": "https://kasa-nine-lilac.vercel.app/"
     },
     {
       "id": 5,
@@ -41,7 +41,7 @@
       "image": "nina.webp",
       "description": "Optimisation du référencement d'un site de photographe",
       "skills": ["SEO & performance","Optimisation front-end","Accessibilité & SEO local"],
-      "repo": "https://https://github.com/oanaciuca/ninacarducci",
+      "repo": "https://github.com/oanaciuca/ninacarducci",
       "demo": "https://oanaciuca.github.io/ninacarducci/"
     },
     {
