@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaChevronDown } from 'react-icons/fa';
+
 
 export default function Banner() {
   return (
@@ -11,7 +11,7 @@ export default function Banner() {
             className="banner-pretitle"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 3 }}
           >
             Bonjour !
           </motion.small>
