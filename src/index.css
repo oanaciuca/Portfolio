@@ -441,7 +441,10 @@ body {
   border-radius: 4px;
 }
 .contact__form button {
+  position: relative;
   align-self: center;
+  justify-content: center;
+  align-items: center;
   font-family: var(--font-heading);
   background-color: #1a5ed0;
   color: #fff;
@@ -450,10 +453,39 @@ body {
   border-radius: 4px;
   cursor: pointer;
   transition: opacity 0.2s;
+  display: flex;
+  overflow: hidden;
 }
-.contact__form button:hover {
+
+.contact__form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(34, 123, 234, 0.6);
+}
+
+.contact__form button .loader {
+  display: none;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid transparent;
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.contact__form button.sending {
+  background-color: #555; 
+  color: #ddd;            
+}
+
+.contact__form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.contact__form button:hover:not(:disabled) {
   opacity: 0.8;
 }
+
 .contact__status {
   margin-top: 1rem;
   text-align: center;
