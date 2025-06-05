@@ -466,15 +466,6 @@ body {
   box-shadow: 0 0 0 3px rgba(34, 123, 234, 0.6);
 }
 
-.contact__form button .loader {
-  display: none;
-  width: 1rem;
-  height: 1rem;
-  border: 2px solid transparent;
-  border-top-color: #fff;
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-}
 
 .contact__form button.sending {
   background-color: #555; 
