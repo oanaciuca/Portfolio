@@ -23,6 +23,12 @@ export default function Contact() {
       return;
     }
 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email)) {
+      setStatus("L'adresse email n'est pas valide.");
+      return;
+    }
+
     setStatus('');
     setIsSending(true);
 
