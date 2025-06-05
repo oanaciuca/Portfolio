@@ -22,7 +22,7 @@ export default function About() {
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.6 }}
       >
-        À PROPOS
+        A PROPOS
       </motion.h2>
 
       <div className="about__content">
