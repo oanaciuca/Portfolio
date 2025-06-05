@@ -71,9 +71,13 @@ body {
 .header-logo img {
   height: 40px;
   display: block;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
 }
 
 .header-menu {
+  list-style: none;
   display: flex;
   gap: 2rem;
 }
