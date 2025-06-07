@@ -465,7 +465,13 @@ body {
   outline: none;
   box-shadow: 0 0 0 3px rgba(34, 123, 234, 0.6);
 }
-
+@media (max-width: 768px) {
+  .modal-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+}
 
 .contact__form button.sending {
   background-color: #555; 

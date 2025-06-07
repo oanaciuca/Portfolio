@@ -34,7 +34,10 @@ export default function Footer() {
           >
             <img src={githubIcon} alt="GitHub" className="footer__icon" />
           </a>
-          <a href="#contact" aria-label="Aller à la section contact">
+          <a
+            href="mailto:oana.daniela.ciuca@gmail.com"
+            aria-label="Envoyez-moi un email"
+          >
             <img src={mailIcon} alt="Contactez-moi" className="footer__icon" />
           </a>
           <a
